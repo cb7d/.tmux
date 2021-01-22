@@ -63,16 +63,16 @@ tmux_conf_theme_focused_pane_bg='#0087d7'               # light blue
 tmux_conf_theme_pane_border_style=thin
 
 # pane borders colours:
-tmux_conf_theme_pane_border='#444444'                   # gray
+tmux_conf_theme_pane_border='#272822'                   # gray
 # tmux_conf_theme_pane_active_border='#00afff'            # light blue
-tmux_conf_theme_pane_active_border='#ECEFF4'            # pink
+tmux_conf_theme_pane_active_border='#FD971F'            # pink
 # pane indicator colours
 tmux_conf_theme_pane_indicator='#00afff'                # light blue
-tmux_conf_theme_pane_active_indicator='#00afff'         # light blue
+tmux_conf_theme_pane_active_indicator='#FD971F'         # light blue
 
 # status line style
 tmux_conf_theme_message_fg='#2E3440'                    # black
-tmux_conf_theme_message_bg='#ECEFF4'                    # yellow
+tmux_conf_theme_message_bg='#FD971F'                    # yellow
 tmux_conf_theme_message_attr='bold'
 
 # status line command style (<prefix> : Escape)
@@ -81,7 +81,7 @@ tmux_conf_theme_message_command_bg='#000000'            # black
 tmux_conf_theme_message_command_attr='bold'
 
 # window modes style
-tmux_conf_theme_mode_fg='#000000'                       # black
+tmux_conf_theme_mode_fg='#F92672'                       # black
 tmux_conf_theme_mode_bg='#ffff00'                       # yellow
 tmux_conf_theme_mode_attr='bold'
 
@@ -179,19 +179,19 @@ tmux_conf_theme_right_separator_sub='|'
 #     - #{uptime_s}
 #     - #{username}
 #     - #{username_ssh}
-tmux_conf_theme_status_left=' Welcome | ↑#{?uptime_y, #{uptime_y}y,}#{?uptime_d, #{uptime_d}d,}#{?uptime_h, #{uptime_h}h,}#{?uptime_m, #{uptime_m}m,} '
+tmux_conf_theme_status_left=' FBI | ↑#{?uptime_y, #{uptime_y}y,}#{?uptime_d, #{uptime_d}d,}#{?uptime_h, #{uptime_h}h,}#{?uptime_m, #{uptime_m}m,} '
 # tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #{?battery_status, #{battery_status},}#{?battery_bar, #{battery_bar},}#{?battery_percentage, #{battery_percentage},} , %R , %d %b | #{username}#{root} | #{hostname} '
-# tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #(curl wttr.in?format=3) , %R , %d %b | #{username}#{root} | #{hostname} '
-tmux_conf_theme_status_right=' Smile | #{username}#{root} | #{hostname} '
+tmux_conf_theme_status_right='#{prefix}#{pairing}#{synchronized} #(curl wttr.in/hangzhou?format=3) , %R , %d %b | #{username}#{root} | #{hostname} '
+#tmux_conf_theme_status_right=' #{username}#{root} | #{hostname} '
 
 # status left style
 tmux_conf_theme_status_left_fg='#000000,#e4e4e4,#e4e4e4'  # black, white , white
-tmux_conf_theme_status_left_bg='#8FBCBB,#2E3440,#5E81AC'  # yellow, pink, white blue
+tmux_conf_theme_status_left_bg='#ECEFF4,#2E3440,#5E81AC'  # yellow, pink, white blue
 tmux_conf_theme_status_left_attr='bold,none,none'
 
 # status right style
 tmux_conf_theme_status_right_fg='#3B4252,#ECEFF4,#000000' # light gray, white, black
-tmux_conf_theme_status_right_bg='#EBCB8B,#BF616A,#e4e4e4' # dark gray, red, white
+tmux_conf_theme_status_right_bg='#ECEFF4,#BF616A,#e4e4e4' # dark gray, red, white
 tmux_conf_theme_status_right_attr='none,none,bold'
 
 # pairing indicator
